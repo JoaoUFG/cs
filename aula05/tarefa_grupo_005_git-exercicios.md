@@ -80,14 +80,26 @@ escrever: *.class<br>
 no gitignore
 
 23.   jQuery é uma famosa biblioteca em JavaScript. Consulte detalhes em [jQuery](http://jquery.com). O repositório correspondente encontra-se em [gitRep](https://github.com/jquery/jquery.git). Faça o clone deste repositório.
-
+fiz o clone, está em ./jquery
 
 24.   No repositório **jqueryrepo**, criado no passo anterior, qual o efeito do comando
 **git shortlog -sne**?
+mostra todos que realizaram commits, mas somente identificando cada um
+
+
 1.    No repositório **jqueryrepo**, qual o efeito de **git remote -v**?
+mostra a url do repositório
+
 2.    Um repositório Git pode ser etiquetado ao longo do tempo. Ou seja, _commits_ específicos podem ser “marcados” ou “etiquetados” para facilitar referências posteriores. Para listar todas as “etiquetas” (_tags_) estabelecidas para um dado repositório, qual comando deve ser executado?
+git tag
+
 3.   Caso um dado repositório retorne muitas “marcas” ou “etiquetas” para o comando **git tag**, como retornar apenas aquelas que atendem a determinado padrão, por exemplo, iniciadas por 2.0?
+git tag -l "2.0*"
+
 4.   Qual o efeito do comando **git tag -a 3.4-gold -m “minha versão ouro”**?
+
+
+
 5.   Após executado o comando acima, qual o efeito de **git show 3.4-gold**?
 6.   O que o comando **git push origin 3.4-gold** teria como efeito?
 7.   Após executar um commit, qual o efeito de **git commit --amend**?
