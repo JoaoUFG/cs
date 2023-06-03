@@ -2,7 +2,7 @@ import {MergeSort} from "./util/MergeSort.js";
 import {Agenda} from "./entity/Agenda.js";
 import {Contato} from "./entity/Contato.js";
 
-class Index{
+class Teste {
 
   static run(){
     console.log("EXERÍCIO 1:\n___________________________________________\n")
@@ -64,4 +64,4 @@ class Index{
 
 }
 
-Index.run();
+Teste.run();
