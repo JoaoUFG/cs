@@ -1,0 +1,6 @@
+
+]
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(·¨â
+M	java:S106"9Replace this use of System.out or System.err by a logger.(‚š‰1
+F
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
